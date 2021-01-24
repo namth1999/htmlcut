@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com"/>
+    <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+            rel="stylesheet"
+    />
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="./bootstrap.css"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Custom css-->
+    <link rel="stylesheet" href="./portal-login.css"/>
+
+    <title>Login</title>
+
+</head>
+<body>
+<div class="content">
+    <div class="container-login">
+    </div>
+    <div class="login-icon">
+        <img src="assets/icon/logo-login.svg">
+    </div>
+    <div class="wrap-login">
+        <form>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="login-header">Đăng nhập</h1>
+                </div>
+                <div class="col-12 text-center">
+                    <p class="login-p">Chưa có tài khoản? <a href="#/home" class="register">Đăng ký ngay</a></p>
+                </div>
+            </div>
+
+            <div class="wrap-input">
+                <span class="label-input">Chon vai tro</span>
+                <select class="input">
+                    <option disabled selected>Chon</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
+            </div>
+
+
+            <div class="wrap-input">
+                <span class="label-input">Username</span>
+                <input class="input" type="text" name="username" placeholder="Type your username">
+            </div>
+
+            <div class="row">
+                <div class="col-6 text-left">
+                    <span class="label-input">
+							Password
+						</span>
+                </div>
+                <div class="col-6 text-right">
+                    <a href="#" class="forgot-text">
+                        Forgot?
+                    </a>
+                </div>
+            </div>
+            <div class="wrap-input" data-validate="Password is required">
+                <span class="btn-show-pass">
+                    <i class="fa fa-eye"></i>
+                </span>
+                <input class="input" type="password" name="pass" placeholder="Type your password">
+            </div>
+
+            <label class="checkbox-container"
+            >Goi thau lon
+                <input type="checkbox"/>
+                <span class="checkmark"></span>
+            </label>
+
+            <div class="container-login100-form-btn">
+                <button class="btn-login">
+                    Login
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>

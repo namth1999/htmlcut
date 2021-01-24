@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <title>Ket qua tim kiem</title>
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com"/>
+    <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+            rel="stylesheet"
+    />
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="./bootstrap.css"/>
+
+    <!-- Custom css-->
+    <link rel="stylesheet" href="./portal-search-result.css"/>
+</head>
+
+<body>
+<!-- Header bar -->
+<section class="row header-bar">
+    <div class="col-4 bar">
+        <div class="row">
+            <div class="col-10 offset-2">
+                <div class="col-12">
+                    <p class="heading">Nguồn vốn</p>
+                </div>
+                <div class="row">
+                    <div class="col-11">
+                        <p class="heading-content text-left">
+                            Lựa chọn nhà thầu trong phạm vi điều chỉnh luật đấu thầu
+                        </p>
+                    </div>
+                    <div class="col-1 text-right">
+                        <img class="heading-arrow-down" src="./assets/icon/down-arrow.svg"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-2 bar">
+        <div class="col-12">
+            <p class="heading">Loại thông tin</p>
+        </div>
+        <div class="row">
+            <div class="col-11">
+                <p class="heading-content text-left">Thông báo mời thầu</p>
+            </div>
+            <div class="col-1 text-right">
+                <img class="heading-arrow-down" src="./assets/icon/down-arrow.svg"/>
+            </div>
+        </div>
+    </div>
+    <div class="col-2 bar">
+        <div class="col-12">
+            <p class="heading">Thời gian</p>
+        </div>
+        <div class="row">
+            <div class="col-11">
+                <p class="heading-content text-left">28/11/2021 - 28/12/2021</p>
+            </div>
+            <div class="col-1 text-right">
+                <img class="heading-arrow-down" src="./assets/icon/down-arrow.svg"/>
+            </div>
+        </div>
+    </div>
+    <div class="col-4 bar">
+        <div class="row">
+            <div class="search-bar">
+                <form class="search-bar-form">
+                    <input type="text" placeholder="Mua sắm công" name="search"/>
+                    <button type="submit" class="search-button">
+                        <img class="search-icon" src="assets/icon/search-icon.svg"/>
+                        Tìm kiếm
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Content-->
+<section>
+    <!-- bread-crumbs -->
+    <div class="row">
+        <div class="col-3">
+            <div class="bread-crumbs">
+          <span class="bread-crumb">
+            <a href="#/home">Home</a>
+          </span>
+                <span>
+            <span class="bread-crumb">/</span>
+            <span class="bread-crumb"
+            ><a href="#/timkiem">Kết quả tìm kiếm</a></span
+            >
+            <span class="bread-crumb">/</span>
+            <span class="current-bread-crumb">Mua sắm công</span>
+          </span>
+            </div>
+        </div>
+        <div class="col-8 main-content-header">
+            <div class="row">
+                <div class="col-6">
+                    <h1>Thông tin tìm kiếm</h1>
+                </div>
+                <div class="col-6 text-right">
+                    <p>Có 100 kết quả tìm kiếm</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--    Side bar and search content-->
+    <div class="row">
+        <!-- Side bar -->
+        <div class="col-3 bread-crumbs side-bar-container">
+            <div class="row side-nav">
+                <div class="col-12 side-nav-cat">
+                    <p class="cat-header">Phân hệ</p>
+                    <div class="row">
+                        <div class="col-6">
+                            <label class="checkbox-container"
+                            >Goi thau nho
+                                <input type="checkbox"/>
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                        <div class="col-6">
+                            <label class="checkbox-container"
+                            >Goi thau nho
+                                <input type="checkbox"/>
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                        <div class="col-6">
+                            <label class="checkbox-container"
+                            >Goi thau nho
+                                <input type="checkbox"/>
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                        <div class="col-6">
+                            <label class="checkbox-container"
+                            >Goi thau nho
+                                <input type="checkbox"/>
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 side-nav-cat">
+                    <p class="cat-header">Lĩnh vực</p>
+                    <div class="row">
+                        <div class="col-6">
+                            <label class="checkbox-container"
+                            >Goi thau nho
+                                <input type="checkbox"/>
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                        <div class="col-6">
+                            <label class="checkbox-container"
+                            >Goi thau nho
+                                <input type="checkbox"/>
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                        <div class="col-6">
+                            <label class="checkbox-container"
+                            >Goi thau nho
+                                <input type="checkbox"/>
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                        <div class="col-6">
+                            <label class="checkbox-container"
+                            >Goi thau nho
+                                <input type="checkbox"/>
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 side-nav-cat">
+                    <p class="cat-header">Lĩnh vực</p>
+                    <div class="row">
+                        <div class="col-6">
+                            <label class="checkbox-container"
+                            >Goi thau nho
+                                <input type="checkbox"/>
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                        <div class="col-6">
+                            <label class="checkbox-container"
+                            >Khong qua mang
+                                <input type="checkbox"/>
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 side-nav-cat">
+                    <p class="cat-header">Hình thức</p>
+                    <div class="row">
+                        <div class="col-6">
+                            <label class="checkbox-container"
+                            >Goi thau nho
+                                <input type="checkbox"/>
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                        <div class="col-6">
+                            <label class="checkbox-container"
+                            >Goi thau lon
+                                <input type="checkbox"/>
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 side-nav-cat">
+                    <p class="cat-header">Giá gói thầu</p>
+                    <div class="row gia-goi-thau">
+                        <div class="col-12">
+                <span class="input-symbol">
+                  <input
+                          class="input-gia-goi-thau"
+                          type="text"
+                          placeholder="Từ"
+                  />
+                </span>
+                        </div>
+                        <div class="col-12">
+                <span class="input-symbol">
+                  <input
+                          class="input-gia-goi-thau"
+                          type="text"
+                          placeholder="Đến"
+                  />
+                </span>
+                        </div>
+                        <div class="col-12">
+                            <input
+                                    type="range"
+                                    min="1"
+                                    max="1000"
+                                    value="1000"
+                                    class="gia-thau-slider input-gia-goi-thau"
+                            />
+                        </div>
+                        <div class="col-6 text-left">
+                            <p class="slider-text">0 dong</p>
+                        </div>
+                        <div class="col-6 text-right">
+                            <p>1000 ty</p>
+                        </div>
+                        <div class="col-12 text-right">
+                            <button class="refresh" role="button">
+                                <img src="./assets/icon/refresh.svg"/> Làm mới
+                            </button>
+                            <button class="apply" role="button">Áp dụng</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 side-nav-cat">
+                    <p class="cat-header">Giá gói thầu</p>
+                    <div class="row gia-goi-thau">
+                        <div class="col-12">
+                <span class="input-symbol">
+                  <input
+                          class="input-gia-goi-thau"
+                          type="text"
+                          placeholder="Từ"
+                  />
+                </span>
+                        </div>
+                        <div class="col-12">
+                <span class="input-symbol">
+                  <input
+                          class="input-gia-goi-thau"
+                          type="text"
+                          placeholder="Đến"
+                  />
+                </span>
+                        </div>
+                        <div class="col-12">
+                            <input
+                                    type="range"
+                                    min="1"
+                                    max="1000"
+                                    value="1000"
+                                    class="gia-thau-slider input-gia-goi-thau"
+                            />
+                        </div>
+                        <div class="col-6 text-left">
+                            <p class="slider-text">0 dong</p>
+                        </div>
+                        <div class="col-6 text-right">
+                            <p>1000 ty</p>
+                        </div>
+                        <div class="col-12 text-right">
+                            <button class="refresh" role="button">
+                                <img src="./assets/icon/refresh.svg"/> Làm mới
+                            </button>
+                            <button class="apply" role="button">Áp dụng</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 side-nav-cat">
+                    <p class="cat-header">Hình thức lựa chọn nhà thầu</p>
+                    <form>
+                        <div class="row">
+                            <div class="col-12 text-left">
+                                <label class="checkbox-container"
+                                >Goi thau lon
+                                    <input type="checkbox"/>
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                            <div class="col-12 text-left">
+                                <label class="checkbox-container"
+                                >Goi thau lon
+                                    <input type="checkbox"/>
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                            <div class="col-12 text-left">
+                                <label class="checkbox-container"
+                                >Goi thau lon
+                                    <input type="checkbox"/>
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                            <div class="col-12 text-left">
+                                <label class="checkbox-container"
+                                >Goi thau lon
+                                    <input type="checkbox"/>
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Search content -->
+        <div class="col-8">
+            <div class="row main-content">
+                <div class="col-2">
+                    <div class="row">
+                        <div class="col-10 offset-2 calendar-container">
+                            <svg viewBox="0 0 130 50">
+                                <image href="./assets/icon/calendar.svg"></image>
+                            </svg>
+                            <div class="calendar-text-event">
+                                <p>Thời điểm đóng thầu</p>
+                            </div>
+                        </div>
+                        <div class="col-10 offset-2 calendar-container">
+                            <svg viewBox="0 0 130 66">
+                                <image href="./assets/icon/rectangle.svg"></image>
+                            </svg>
+                            <div class="calendar-text">
+                                <p style="color: #e6a322; margin-bottom: 0;">11:00 AM</p>
+                                <p style="color: #064D69; margin-bottom: 0;">28/11/2020</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6  goi-thau-heading-tab-1">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2>Gói thầu số 03: Thi công trường THCS Phan Đình Phùng</h2>
+                        </div>
+                        <div class="col-2 goi-thau-info-tab-1 goi-thau-info-border">
+                            <p style="margin-bottom: 10px">Linh vuc</p>
+                            <button class="linh-vuc-tag" role="button">
+                                Phi tu van
+                            </button>
+                        </div>
+                        <div class="col-5 goi-thau-info-tab-1 goi-thau-info-border" style="padding-left: 2%">
+                            <p style="margin-bottom: 10px">Ten ben moi thau</p>
+                            <p style="font-weight: 500; color: #595959">Ban di dân tái định cư Yên Sơn
+                            </p>
+                        </div>
+                        <div class="col-5 goi-thau-info-tab-1" style="padding-left: 2%">
+                            <p style="margin-bottom: 10px">Hinh thuc lua chon nha thau</p>
+                            <p style="font-weight: 500; color: #595959">Đấu thầu rộng rãi</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4 goi-thau-heading-tab-2">
+                    <h2><span style="color: #8c8c8c;">Số TBMT:</span> 60880139135 - 001</h2>
+                    <div class="row">
+                        <div class="col-auto goi-thau-info-tab-2">
+                            <p style="margin-bottom: 10px">Thoi diem dang tai:</p>
+                        </div>
+                        <div class="col-auto text-left goi-thau-info-tab-2-content">
+                            <p style="margin-bottom: 10px">22/12/2020 12:27</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-auto goi-thau-info-tab-2">
+                            <p>Hinh thuc du thau:</p>
+                        </div>
+                        <div class="col-auto text-left goi-thau-info-tab-2-content">
+                            <button class="hinh-thuc-du-thau-tag" role="button">
+                                Qua mang
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row main-content">
+                <div class="col-2">
+                    <div class="row">
+                        <div class="col-10 offset-2 calendar-container">
+                            <svg viewBox="0 0 130 50">
+                                <image href="./assets/icon/calendar.svg"></image>
+                            </svg>
+                            <div class="calendar-text-event">
+                                <p>Thời điểm đóng thầu</p>
+                            </div>
+                        </div>
+                        <div class="col-10 offset-2 calendar-container">
+                            <svg viewBox="0 0 130 66">
+                                <image href="./assets/icon/rectangle.svg"></image>
+                            </svg>
+                            <div class="calendar-text">
+                                <p style="color: #e6a322; margin-bottom: 0;">11:00 AM</p>
+                                <p style="color: #064D69; margin-bottom: 0;">28/11/2020</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6  goi-thau-heading-tab-1">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2>Gói thầu số 03: Thi công trường THCS Phan Đình Phùng</h2>
+                        </div>
+                        <div class="col-2 goi-thau-info-tab-1 goi-thau-info-border">
+                            <p style="margin-bottom: 10px">Linh vuc</p>
+                            <button class="linh-vuc-tag" role="button">
+                                Phi tu van
+                            </button>
+                        </div>
+                        <div class="col-5 goi-thau-info-tab-1 goi-thau-info-border" style="padding-left: 2%">
+                            <p style="margin-bottom: 10px">Ten ben moi thau</p>
+                            <p style="font-weight: 500; color: #595959">Ban di dân tái định cư Yên Sơn
+                            </p>
+                        </div>
+                        <div class="col-5 goi-thau-info-tab-1" style="padding-left: 2%">
+                            <p style="margin-bottom: 10px">Hinh thuc lua chon nha thau</p>
+                            <p style="font-weight: 500; color: #595959">Đấu thầu rộng rãi</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4 goi-thau-heading-tab-2">
+                    <h2><span style="color: #8c8c8c;">Số TBMT:</span> 60880139135 - 001</h2>
+                    <div class="row">
+                        <div class="col-auto goi-thau-info-tab-2">
+                            <p style="margin-bottom: 10px">Thoi diem dang tai:</p>
+                        </div>
+                        <div class="col-auto text-left goi-thau-info-tab-2-content">
+                            <p style="margin-bottom: 10px">22/12/2020 12:27</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-auto goi-thau-info-tab-2">
+                            <p>Hinh thuc du thau:</p>
+                        </div>
+                        <div class="col-auto text-left goi-thau-info-tab-2-content">
+                            <button class="hinh-thuc-du-thau-tag" role="button">
+                                Qua mang
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row main-content">
+                <div class="col-2">
+                    <div class="row">
+                        <div class="col-10 offset-2 calendar-container">
+                            <svg viewBox="0 0 130 50">
+                                <image href="./assets/icon/calendar.svg"></image>
+                            </svg>
+                            <div class="calendar-text-event">
+                                <p>Thời điểm đóng thầu</p>
+                            </div>
+                        </div>
+                        <div class="col-10 offset-2 calendar-container">
+                            <svg viewBox="0 0 130 66">
+                                <image href="./assets/icon/rectangle.svg"></image>
+                            </svg>
+                            <div class="calendar-text">
+                                <p style="color: #e6a322; margin-bottom: 0;">11:00 AM</p>
+                                <p style="color: #064D69; margin-bottom: 0;">28/11/2020</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6  goi-thau-heading-tab-1">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2>Gói thầu số 03: Thi công trường THCS Phan Đình Phùng</h2>
+                        </div>
+                        <div class="col-2 goi-thau-info-tab-1 goi-thau-info-border">
+                            <p style="margin-bottom: 10px">Linh vuc</p>
+                            <button class="linh-vuc-tag" role="button">
+                                Phi tu van
+                            </button>
+                        </div>
+                        <div class="col-5 goi-thau-info-tab-1 goi-thau-info-border" style="padding-left: 2%">
+                            <p style="margin-bottom: 10px">Ten ben moi thau</p>
+                            <p style="font-weight: 500; color: #595959">Ban di dân tái định cư Yên Sơn
+                            </p>
+                        </div>
+                        <div class="col-5 goi-thau-info-tab-1" style="padding-left: 2%">
+                            <p style="margin-bottom: 10px">Hinh thuc lua chon nha thau</p>
+                            <p style="font-weight: 500; color: #595959">Đấu thầu rộng rãi</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4 goi-thau-heading-tab-2">
+                    <h2><span style="color: #8c8c8c;">Số TBMT:</span> 60880139135 - 001</h2>
+                    <div class="row">
+                        <div class="col-auto goi-thau-info-tab-2">
+                            <p style="margin-bottom: 10px">Thoi diem dang tai:</p>
+                        </div>
+                        <div class="col-auto text-left goi-thau-info-tab-2-content">
+                            <p style="margin-bottom: 10px">22/12/2020 12:27</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-auto goi-thau-info-tab-2">
+                            <p>Hinh thuc du thau:</p>
+                        </div>
+                        <div class="col-auto text-left goi-thau-info-tab-2-content">
+                            <button class="hinh-thuc-du-thau-tag" role="button">
+                                Qua mang
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row main-content">
+                <div class="col-2">
+                    <div class="row">
+                        <div class="col-10 offset-2 calendar-container">
+                            <svg viewBox="0 0 130 50">
+                                <image href="./assets/icon/calendar.svg"></image>
+                            </svg>
+                            <div class="calendar-text-event">
+                                <p>Thời điểm đóng thầu</p>
+                            </div>
+                        </div>
+                        <div class="col-10 offset-2 calendar-container">
+                            <svg viewBox="0 0 130 66">
+                                <image href="./assets/icon/rectangle.svg"></image>
+                            </svg>
+                            <div class="calendar-text">
+                                <p style="color: #e6a322; margin-bottom: 0;">11:00 AM</p>
+                                <p style="color: #064D69; margin-bottom: 0;">28/11/2020</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6  goi-thau-heading-tab-1">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2>Gói thầu số 03: Thi công trường THCS Phan Đình Phùng</h2>
+                        </div>
+                        <div class="col-2 goi-thau-info-tab-1 goi-thau-info-border">
+                            <p style="margin-bottom: 10px">Linh vuc</p>
+                            <button class="linh-vuc-tag" role="button">
+                                Phi tu van
+                            </button>
+                        </div>
+                        <div class="col-5 goi-thau-info-tab-1 goi-thau-info-border" style="padding-left: 2%">
+                            <p style="margin-bottom: 10px">Ten ben moi thau</p>
+                            <p style="font-weight: 500; color: #595959">Ban di dân tái định cư Yên Sơn
+                            </p>
+                        </div>
+                        <div class="col-5 goi-thau-info-tab-1" style="padding-left: 2%">
+                            <p style="margin-bottom: 10px">Hinh thuc lua chon nha thau</p>
+                            <p style="font-weight: 500; color: #595959">Đấu thầu rộng rãi</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4 goi-thau-heading-tab-2">
+                    <h2><span style="color: #8c8c8c;">Số TBMT:</span> 60880139135 - 001</h2>
+                    <div class="row">
+                        <div class="col-auto goi-thau-info-tab-2">
+                            <p style="margin-bottom: 10px">Thoi diem dang tai:</p>
+                        </div>
+                        <div class="col-auto text-left goi-thau-info-tab-2-content">
+                            <p style="margin-bottom: 10px">22/12/2020 12:27</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-auto goi-thau-info-tab-2">
+                            <p>Hinh thuc du thau:</p>
+                        </div>
+                        <div class="col-auto text-left goi-thau-info-tab-2-content">
+                            <button class="hinh-thuc-du-thau-tag" role="button">
+                                Qua mang
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row main-content">
+                <div class="col-2">
+                    <div class="row">
+                        <div class="col-10 offset-2 calendar-container">
+                            <svg viewBox="0 0 130 50">
+                                <image href="./assets/icon/calendar.svg"></image>
+                            </svg>
+                            <div class="calendar-text-event">
+                                <p>Thời điểm đóng thầu</p>
+                            </div>
+                        </div>
+                        <div class="col-10 offset-2 calendar-container">
+                            <svg viewBox="0 0 130 66">
+                                <image href="./assets/icon/rectangle.svg"></image>
+                            </svg>
+                            <div class="calendar-text">
+                                <p style="color: #e6a322; margin-bottom: 0;">11:00 AM</p>
+                                <p style="color: #064D69; margin-bottom: 0;">28/11/2020</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6  goi-thau-heading-tab-1">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2>Gói thầu số 03: Thi công trường THCS Phan Đình Phùng</h2>
+                        </div>
+                        <div class="col-2 goi-thau-info-tab-1 goi-thau-info-border">
+                            <p style="margin-bottom: 10px">Linh vuc</p>
+                            <button class="linh-vuc-tag" role="button">
+                                Phi tu van
+                            </button>
+                        </div>
+                        <div class="col-5 goi-thau-info-tab-1 goi-thau-info-border" style="padding-left: 2%">
+                            <p style="margin-bottom: 10px">Ten ben moi thau</p>
+                            <p style="font-weight: 500; color: #595959">Ban di dân tái định cư Yên Sơn
+                            </p>
+                        </div>
+                        <div class="col-5 goi-thau-info-tab-1" style="padding-left: 2%">
+                            <p style="margin-bottom: 10px">Hinh thuc lua chon nha thau</p>
+                            <p style="font-weight: 500; color: #595959">Đấu thầu rộng rãi</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4 goi-thau-heading-tab-2">
+                    <h2><span style="color: #8c8c8c;">Số TBMT:</span> 60880139135 - 001</h2>
+                    <div class="row">
+                        <div class="col-auto goi-thau-info-tab-2">
+                            <p style="margin-bottom: 10px">Thoi diem dang tai:</p>
+                        </div>
+                        <div class="col-auto text-left goi-thau-info-tab-2-content">
+                            <p style="margin-bottom: 10px">22/12/2020 12:27</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-auto goi-thau-info-tab-2">
+                            <p>Hinh thuc du thau:</p>
+                        </div>
+                        <div class="col-auto text-left goi-thau-info-tab-2-content">
+                            <button class="hinh-thuc-du-thau-tag" role="button">
+                                Qua mang
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row main-content">
+                <div class="col-2">
+                    <div class="row">
+                        <div class="col-10 offset-2 calendar-container">
+                            <svg viewBox="0 0 130 50">
+                                <image href="./assets/icon/calendar.svg"></image>
+                            </svg>
+                            <div class="calendar-text-event">
+                                <p>Thời điểm đóng thầu</p>
+                            </div>
+                        </div>
+                        <div class="col-10 offset-2 calendar-container">
+                            <svg viewBox="0 0 130 66">
+                                <image href="./assets/icon/rectangle.svg"></image>
+                            </svg>
+                            <div class="calendar-text">
+                                <p style="color: #e6a322; margin-bottom: 0;">11:00 AM</p>
+                                <p style="color: #064D69; margin-bottom: 0;">28/11/2020</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6  goi-thau-heading-tab-1">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2>Gói thầu số 03: Thi công trường THCS Phan Đình Phùng</h2>
+                        </div>
+                        <div class="col-2 goi-thau-info-tab-1 goi-thau-info-border">
+                            <p style="margin-bottom: 10px">Linh vuc</p>
+                            <button class="linh-vuc-tag" role="button">
+                                Phi tu van
+                            </button>
+                        </div>
+                        <div class="col-5 goi-thau-info-tab-1 goi-thau-info-border" style="padding-left: 2%">
+                            <p style="margin-bottom: 10px">Ten ben moi thau</p>
+                            <p style="font-weight: 500; color: #595959">Ban di dân tái định cư Yên Sơn
+                            </p>
+                        </div>
+                        <div class="col-5 goi-thau-info-tab-1" style="padding-left: 2%">
+                            <p style="margin-bottom: 10px">Hinh thuc lua chon nha thau</p>
+                            <p style="font-weight: 500; color: #595959">Đấu thầu rộng rãi</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4 goi-thau-heading-tab-2">
+                    <h2><span style="color: #8c8c8c;">Số TBMT:</span> 60880139135 - 001</h2>
+                    <div class="row">
+                        <div class="col-auto goi-thau-info-tab-2">
+                            <p style="margin-bottom: 10px">Thoi diem dang tai:</p>
+                        </div>
+                        <div class="col-auto text-left goi-thau-info-tab-2-content">
+                            <p style="margin-bottom: 10px">22/12/2020 12:27</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-auto goi-thau-info-tab-2">
+                            <p>Hinh thuc du thau:</p>
+                        </div>
+                        <div class="col-auto text-left goi-thau-info-tab-2-content">
+                            <button class="hinh-thuc-du-thau-tag" role="button">
+                                Qua mang
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row main-content">
+                <div class="col-2">
+                    <div class="row">
+                        <div class="col-10 offset-2 calendar-container">
+                            <svg viewBox="0 0 130 50">
+                                <image href="./assets/icon/calendar.svg"></image>
+                            </svg>
+                            <div class="calendar-text-event">
+                                <p>Thời điểm đóng thầu</p>
+                            </div>
+                        </div>
+                        <div class="col-10 offset-2 calendar-container">
+                            <svg viewBox="0 0 130 66">
+                                <image href="./assets/icon/rectangle.svg"></image>
+                            </svg>
+                            <div class="calendar-text">
+                                <p style="color: #e6a322; margin-bottom: 0;">11:00 AM</p>
+                                <p style="color: #064D69; margin-bottom: 0;">28/11/2020</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6  goi-thau-heading-tab-1">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2>Gói thầu số 03: Thi công trường THCS Phan Đình Phùng</h2>
+                        </div>
+                        <div class="col-2 goi-thau-info-tab-1 goi-thau-info-border">
+                            <p style="margin-bottom: 10px">Linh vuc</p>
+                            <button class="linh-vuc-tag" role="button">
+                                Phi tu van
+                            </button>
+                        </div>
+                        <div class="col-5 goi-thau-info-tab-1 goi-thau-info-border" style="padding-left: 2%">
+                            <p style="margin-bottom: 10px">Ten ben moi thau</p>
+                            <p style="font-weight: 500; color: #595959">Ban di dân tái định cư Yên Sơn
+                            </p>
+                        </div>
+                        <div class="col-5 goi-thau-info-tab-1" style="padding-left: 2%">
+                            <p style="margin-bottom: 10px">Hinh thuc lua chon nha thau</p>
+                            <p style="font-weight: 500; color: #595959">Đấu thầu rộng rãi</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4 goi-thau-heading-tab-2">
+                    <h2><span style="color: #8c8c8c;">Số TBMT:</span> 60880139135 - 001</h2>
+                    <div class="row">
+                        <div class="col-auto goi-thau-info-tab-2">
+                            <p style="margin-bottom: 10px">Thoi diem dang tai:</p>
+                        </div>
+                        <div class="col-auto text-left goi-thau-info-tab-2-content">
+                            <p style="margin-bottom: 10px">22/12/2020 12:27</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-auto goi-thau-info-tab-2">
+                            <p>Hinh thuc du thau:</p>
+                        </div>
+                        <div class="col-auto text-left goi-thau-info-tab-2-content">
+                            <button class="hinh-thuc-du-thau-tag" role="button">
+                                Qua mang
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!--Page numbers-->
+            <div class="row search-page-number">
+                <div class="col-6 text-left">
+                    <p>Trang <span style="color: #595959;">1</span> <img src="./assets/icon/down-arrow.svg"/> Trên 50
+                    </p>
+                </div>
+                <div class="col-6">
+                    <div style="float: right;">
+                        <ul class="pagination">
+                            <li>
+                                <button role="button" class="is-active">
+                                    1
+                                </button>
+                            </li>
+                            <li>
+                                <button role="button">
+                                    2
+                                </button>
+                            </li>
+                            <li>
+                                <button role="button">
+                                    3
+                                </button>
+                            </li>
+                            <li>
+                                <button role="button">
+                                    4
+                                </button>
+                            </li>
+                            <li>
+                                <span style="padding-right: 5px; color: #8C8C8C">...</span>
+                            </li>
+                            <li>
+                                <button role="button">
+                                    20
+                                </button>
+                            </li>
+                            <li>
+                                <button role="button">
+                                    >
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+</body>
+</html>
