@@ -88,6 +88,9 @@ body {
 }
 
 .label-input {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
     color: #333333;
     margin-bottom: 15px;
 }
@@ -99,8 +102,9 @@ body {
     width: 100%;
     height: 50px;
     background: transparent;
-    padding: 0 5px 0 15px;
+    padding-left: 15px;
     margin-top: 5px;
+    color: #BFBFBF;
 }
 
 .input:focus {
