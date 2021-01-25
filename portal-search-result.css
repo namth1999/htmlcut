@@ -95,7 +95,7 @@ form.search-bar-form input[type="text"] {
 
 /*Bread-crumbs*/
 .bread-crumbs {
-    padding-left: 130px;
+    padding-left: 100px;
 }
 
 .bread-crumb {
@@ -491,7 +491,7 @@ form.search-bar-form input[type="text"] {
     border-radius: 20px;
 
     font-weight: normal;
-    font-size: 14px;
+    font-size: 12px;
     padding: 2px 8px;
     line-height: 22px;
     color: #8C8C8C;
