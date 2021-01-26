@@ -115,6 +115,25 @@ body .no-padding {
     outline: none;
 }
 
+.forward-slide {
+    position: absolute;
+    top: -20%;
+    right: 5%;
+    transform: translate(50%, 50%);
+    z-index: 99;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    opacity: 0.5;
+    transition: opacity 0.15s ease;
+    outline: none;
+}
+
 .back-slide-2 {
     position: absolute;
     top: 30%;
@@ -154,25 +173,6 @@ body .no-padding {
     outline: none;
 }
 
-.forward-slide {
-    position: absolute;
-    top: -20%;
-    right: 5%;
-    transform: translate(50%, 50%);
-    z-index: 99;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-align: center;
-    align-items: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    color: #fff;
-    text-align: center;
-    opacity: 0.5;
-    transition: opacity 0.15s ease;
-    outline: none;
-}
-
 .slide1-item h4 {
     font-weight: 500;
     font-size: 14px;
@@ -188,7 +188,6 @@ body .no-padding {
     color: #064D69;
     border-right: 1px solid #e8e8e8;
 }
-
 
 .slide2-item h4 {
     font-weight: 500;
@@ -210,7 +209,10 @@ body .no-padding {
     border-bottom-left-radius: 8px;
     padding: 10px;
     margin-bottom: 0px;
+}
 
+.slide2-item span {
+    color: #1890FF;
 }
 
 .slide3-item {
@@ -236,11 +238,18 @@ body .no-padding {
     border-left: 10px solid #e2e3e5 inset;
 }
 
-.slide3-item p {
+.slide3-item p:first-of-type {
     font-weight: normal;
     font-size: 14px;
     line-height: 22px;
     color: #c6c8ca;
+}
+
+.slide3-item p {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #262626;
 }
 
 .container-slide {
@@ -259,6 +268,10 @@ body .no-padding {
     padding-top: 5px;
 }
 
+.tin-moi span {
+    color: #1890FF;
+}
+
 .tin-moi h4{
     font-weight: 500;
     font-size: 16px;
@@ -266,11 +279,19 @@ body .no-padding {
     color: #262626;
 }
 
-.tin-moi p{
+.tin-moi p:first-of-type{
     font-weight: normal;
     font-size: 14px;
     line-height: 22px;
     color: #c6c8ca;
+    margin-bottom: 0px;
+}
+
+.tin-moi p{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #595959;
     margin-bottom: 0px;
 }
 
