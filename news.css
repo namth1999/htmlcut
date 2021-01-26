@@ -348,3 +348,36 @@ body .no-padding {
 
     }
 }
+
+.bread-crumb {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.bread-crumb a:link {
+    color: #8c8c8c;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.bread-crumb a:hover {
+    color: #FFFFFF;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.current-bread-crumb {
+    font-weight: normal;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 22px;
+}
+
+.bread-crumbs {
+    position: absolute;
+    top: 45%;
+    left: 12%;
+    transform: translate(-50%,-50%);
+}
