@@ -14,7 +14,7 @@ body {
 
 /*Header - Breadcrums*/
 .container-login {
-    background-image: url('../../../../Angular-FIS/htmlcut/assets/images/news-bg.svg');
+    background-image: url('./assets/images/news-bg.svg');
     width: 100%;
     margin-right: auto;
     margin-left: auto;
