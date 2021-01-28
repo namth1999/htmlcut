@@ -71,7 +71,6 @@ form.search-bar-form input[type="text"] {
     color: white;
     border: 1px solid grey;
     cursor: pointer;
-
     margin-left: -15px;
     border-left: none; /* Prevent double borders */
     justify-content: center;
@@ -79,10 +78,6 @@ form.search-bar-form input[type="text"] {
     background: #064d69;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.03);
     border-radius: 8px;
-
-    /* Regular / 14px | 22px */
-
-
     font-weight: normal;
     font-size: 14px;
     line-height: 22px;
