@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chọn vai trò</title>
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com"/>
+    <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+            rel="stylesheet"
+    />
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="./bootstrap.css"/>
+
+    <!--    font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Custom css-->
+    <link rel="stylesheet" href="./chon-vai-tro.css"/>
+
+    <!-- you need to include the shieldui css and js assets in order for the charts to work -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css"
+          href="http://www.shieldui.com/shared/components/latest/css/light-bootstrap/all.min.css"/>
+    <script>
+        $(".in-active").hide();
+        $(".active").show();</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<!--Header-->
+<section>
+    <div class="container-login">
+        <!-- bread-crumbs -->
+        <div class="row">
+            <div class="bread-crumbs">
+                        <span class="bread-crumb">
+                         <a href="#/home">Trang chủ</a>
+                        </span>
+                <span class="bread-crumb">/</span>
+                <span class="current-bread-crumb">Trang cá nhân</span>
+                <h1 style="color: #FFFFFF">Trang cá nhân</h1>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Header-->
+
+<!--Main content-->
+<section style="background: #F5F5F5; padding-top: 40px; padding-bottom: 40px;">
+    <div class="row" style="width:85%; margin-left: auto; margin-right: auto;">
+        <div class="col-3 side-bar">
+            <div class="row side-bar-user">
+                <div class="col-6 my-auto text-left" style="position: relative">
+                    <div class="wrap-img"><img src="./assets/images/user-img.svg"></div>
+                    <button class="blue-circular-btn" role="button"><i class="fa fa-camera"></i></button>
+                </div>
+                <div class="col-6 my-auto text-right">
+                    <button class="blue-btn" type="button" data-toggle="modal" data-target="#vaitroModal">Đổi vai trò
+                    </button>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="vaitroModal" tabindex="-1" aria-labelledby="vaitroModalLabel"
+                     aria-hidden="true">
+                    <button class="close-btn" role="button" data-dismiss="modal"><i class="fa fa-close"></i></button>
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <div class="row text-center">
+                                    <div class="col-12 my-auto">
+                                        <h5 style="margin-bottom: 24px">Đổi vai trò</h5>
+                                    </div>
+                                    <button class="btn-vai-tro active">
+                                        <i class="fa fa-check-circle active"></i> Chủ đầu tư
+                                    </button>
+                                    <button class="btn-vai-tro">
+                                        <i class="fa fa-check-circle in-active"></i> Nhà thầu
+                                    </button>
+                                    <button class="btn-vai-tro">
+                                        <i class="fa fa-check-circle in-active"></i> Cơ sở đào tạo
+                                    </button>
+                                    <button class="btn-vai-tro">
+                                        <i class="fa fa-check-circle in-active"></i> Đơn vị quản lý đấu thầu
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal -->
+                <h3>Thái Hoàng Nguyễn Xuân</h3>
+                <p>Công ty: TNHH xây dựng đấu thầu Khánh Hòa</p>
+                <p>Vai trò: Bên mời thầu</p>
+            </div>
+            <div class="row side-bar-menu">
+                <div class="col-12">
+                    <h2>Danh mục</h2>
+                </div>
+                <div class="col-1">
+                    <img class="active" src="assets/icon/dashboard.svg">
+                </div>
+                <div class="col-11">
+                    <p class="active">Dashboard</p>
+                </div>
+                <div class="col-1">
+                    <img src="assets/icon/noti.svg">
+                </div>
+                <div class="col-11">
+                    <p>Thông báo</p>
+                </div>
+                <div class="col-1">
+                    <img src="assets/icon/works.svg">
+                </div>
+                <div class="col-11">
+                    <p>Công việc được giao</p>
+                </div>
+                <div class="col-1">
+                    <img src="assets/icon/report.svg">
+                </div>
+                <div class="col-11">
+                    <p>Báo cáo</p>
+                </div>
+                <div class="col-1">
+                    <img src="assets/icon/settings.svg">
+                </div>
+                <div class="col-11">
+                    <p>Tuỳ biến trang</p>
+                </div>
+                <div class="col-1">
+                    <img src="assets/icon/user-detail.svg">
+                </div>
+                <div class="col-11">
+                    <p>Thông tin cá nhân</p>
+                </div>
+                <div class="col-12">
+                    <button class="btn-nghiep-vu">
+                        Chọn nghiệp vụ
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="col-9">
+            <div style="margin-left: 24px">
+                <div class="row" style="margin-bottom: 32px;">
+                    <div class="col-md-3">
+                        <div class="row item" style="padding: 24px">
+                            <div class="col-12">
+                                <button class="circular-btn" role="button">500</button>
+                            </div>
+                            <div class="col-12">
+                                <h4>
+                                    Dự án đầu tư phát triển
+                                </h4>
+                            </div>
+                            <div class="col-12">
+                                <p>
+                                    Xem chi tiết >>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="row item" style="padding: 24px">
+                            <div class="col-12">
+                                <button class="circular-btn" style="background: #E6A322" role="button">500</button>
+                            </div>
+                            <div class="col-12">
+                                <h4>
+                                    Kế hoạch lựa chọn nhà thầu
+                                </h4>
+                            </div>
+                            <div class="col-12">
+                                <p>
+                                    Xem chi tiết >>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="row item" style="padding: 24px">
+                            <div class="col-12">
+                                <button class="circular-btn" style="background: #1890FF" role="button">500</button>
+                            </div>
+                            <div class="col-12">
+                                <h4>
+                                    Thông báo mời thầu
+                                </h4>
+                            </div>
+                            <div class="col-12">
+                                <p>
+                                    Xem chi tiết >>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="row item" style="padding: 24px">
+                            <div class="col-12">
+                                <button class="circular-btn" style="background: #2EB553" role="button">500</button>
+                            </div>
+                            <div class="col-12">
+                                <h4>
+                                    Số hợp đồng
+                                </h4>
+                            </div>
+                            <div class="col-12">
+                                <p>
+                                    Xem chi tiết >>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row item">
+                    <div class="col-12 my-auto" style="padding: 24px;border-bottom: 1px solid #e8e8e8;">
+                        <h3>Thông tin cá nhân</h3>
+                    </div>
+                    <div class="col-12">
+                        <img src="./assets/images/Chart.svg" style="width: 100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Main content-->
+
+</body>
+</html>
