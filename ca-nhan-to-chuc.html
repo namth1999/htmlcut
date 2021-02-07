@@ -1,21 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link href="favicon.ico" rel="Shortcut Icon"/>
+
     <title>Cá nhân tổ chức</title>
 
-    <!-- google fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com"/>
-    <link
-            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-            rel="stylesheet"
-    />
-
     <!-- Custom css-->
-    <link rel="stylesheet" href="./ca-nhan-to-chuc.css"/>
+    <link rel="stylesheet" href="./css/canhantochuc/ca-nhan-to-chuc.css"/>
 
     <!-- bootstrap css -->
-    <link rel="stylesheet" href="./style.css"/>
+    <link rel="stylesheet" href="./css/style.css"/>
 
     <!--    font awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -48,7 +45,7 @@
         <div class="col-3 side-bar">
             <div class="row side-bar-user">
                 <div class="col-6 my-auto text-left" style="position: relative">
-                    <div class="wrap-img"><img src="./assets/images/user-img.svg"></div>
+                    <div class="wrap-img"><img src="./images/user-img.svg"></div>
                     <button class="blue-circular-btn" role="button"><i class="fa fa-camera"></i></button>
                 </div>
                 <div class="col-6 my-auto text-right">
@@ -62,41 +59,33 @@
                 <div class="col-12">
                     <h2>Danh mục</h2>
                 </div>
-                <div class="col-1">
-                    <img class="active" src="assets/icon/dashboard.svg">
+                <div class="col-12">
+                    <a class="active" data-toggle="pill" href="#v-pills-info"
+                       role="tab" aria-controls="v-pills-info" aria-selected="true"><img
+                            src="icons/dashboard.svg" alt=""> Dashboard</a>
                 </div>
-                <div class="col-11">
-                    <p class="active">Dashboard</p>
+                <div class="col-12">
+                    <a class="in-active" data-toggle="pill" href="#v-pills-info"
+                       role="tab" aria-controls="v-pills-info" aria-selected="true"><img
+                            src="icons/noti.svg" alt=""> Thông báo</a>
                 </div>
-                <div class="col-1">
-                    <img src="assets/icon/noti.svg">
+                <div class="col-12">
+                    <a class="in-active" data-toggle="pill" href="#v-pills-info"
+                       role="tab" aria-controls="v-pills-info" aria-selected="true"><img
+                            src="icons/works.svg" alt=""> Công việc được giao</a>
                 </div>
-                <div class="col-11">
-                    <p>Thông báo</p>
-                </div>
-                <div class="col-1">
-                    <img src="assets/icon/works.svg">
-                </div>
-                <div class="col-11">
-                    <p>Công việc được giao</p>
-                </div>
-                <div class="col-1">
-                    <img src="assets/icon/report.svg">
-                </div>
-                <div class="col-11">
-                    <p>Báo cáo</p>
-                </div>
-                <div class="col-1">
-                    <img src="assets/icon/settings.svg">
-                </div>
-                <div class="col-11">
-                    <p>Tuỳ biến trang</p>
-                </div>
-                <div class="col-1">
-                    <img src="assets/icon/user-detail.svg">
-                </div>
-                <div class="col-11">
-                    <p>Thông tin cá nhân</p>
+                <div class="col-12">
+                    <a class="in-active" data-toggle="pill" href="#v-pills-info"
+                       role="tab" aria-controls="v-pills-info" aria-selected="true"><img
+                            src="icons/report.svg" alt=""> Báo cáo</a>
+                </div><div class="col-12">
+                    <a class="in-active" data-toggle="pill" href="#v-pills-info"
+                       role="tab" aria-controls="v-pills-info" aria-selected="true"><img
+                            src="icons/settings.svg" alt=""> Tuỳ biến trang</a>
+                </div><div class="col-12">
+                    <a class="in-active" data-toggle="pill" href="#v-pills-info"
+                       role="tab" aria-controls="v-pills-info" aria-selected="true"><img
+                            src="icons/user-detail.svg" alt=""> Thông tin cá nhân</a>
                 </div>
                 <div class="col-12">
                     <button class="btn-nghiep-vu">
@@ -210,7 +199,7 @@
                             </div>
                             <div class="col-4 offset-right-6 my-auto">
                                 <select class="input sdt">
-                                    <option disabled selected>Tiếng Việt</option>
+                                    <option selected>Tiếng Việt</option>
                                     <option>Tiếng Anh</option>
                                 </select>
                             </div>
@@ -285,6 +274,20 @@
     </div>
 </section>
 
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
 
+<!-- JavaScript libraries, plugins and custom scripts-->
+<script src="js/vendor.min.js"></script>
+<script src="js/theme.min.js"></script>
 </body>
 </html>

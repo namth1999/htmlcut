@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dữ liệu</title>
+    <link href="favicon.ico" rel="Shortcut Icon"/>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="./css/style.css"/>
+    <!-- Custom css-->
+    <link rel="stylesheet" href="./css/dulieu/du-lieu.css"/>
+
+    <!--    font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+</head>
+<body>
+<!--Header-->
+<section>
+    <div class="container-login">
+        <!-- bread-crumbs -->
+        <div class="row">
+            <div class="bread-crumbs">
+                        <span class="bread-crumb">
+                         <a href="#/home">Trang chủ</a>
+                        </span>
+                <span class="bread-crumb">/</span>
+                <span class="current-bread-crumb">Dữ liệu</span>
+                <h1 style="color: #FFFFFF">Thư viện dữ liệu</h1>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Header-->
+
+<!--Main content-->
+<section style="background: #F5F5F5; padding-top: 40px; padding-bottom: 40px;">
+    <div class="row" style="width:85%; margin-left: auto; margin-right: auto;">
+        <div class="col-sm-3 side-bar">
+            <div class="side-bar-menu">
+                <div class="col-sm-12">
+                    <h2>Danh mục</h2>
+                </div>
+                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist"
+                     aria-orientation="vertical">
+                    <a id="v-pills-dkht-tab" data-toggle="pill"
+                       href="#v-pills-dkht"
+                       role="tab" aria-controls="v-pills-dkht" aria-selected="true"><img
+                            src="icons/dashboard.svg" alt=""> Điều kiện hạ tầng CNTT và Cài đặt
+                        phần mềm</a>
+                    <a id="v-pills-info-tab" data-toggle="pill"
+                       href="#v-pills-info"
+                       role="tab" aria-controls="v-pills-info" aria-selected="true"><img
+                            src="icons/noti.svg" alt=""> Cổng thông tin đấu thầu điện tử</a>
+                    <a id="v-pills-user-tab" data-toggle="pill"
+                       href="#v-pills-user"
+                       role="tab" aria-controls="v-pills-user" aria-selected="true"><img
+                            src="icons/works.svg" alt=""> Quản lý người dùng</a>
+                    <a id="v-pills-nvdt-tab" data-toggle="pill"
+                       href="#v-pills-nvdt"
+                       role="tab" aria-controls="v-pills-nvdt" aria-selected="true"><img
+                            src="icons/report.svg" alt=""> Nghiệp vụ đấu thầu</a>
+                    <a id="v-pills-glcts-tab" data-toggle="pill"
+                       href="#v-pills-qlcts"
+                       role="tab" aria-controls="v-pills-qlcts" aria-selected="true"><img
+                            src="icons/settings.svg" alt=""> Quản lý Chứng thư số</a>
+                    <a id="v-pills-dtt-tab"
+                       data-toggle="pill" href="#v-pills-dtt"
+                       role="tab" aria-controls="v-pills-dtt" aria-selected="true"><img
+                            src="icons/link.svg" alt=""> Dự thầu thử</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-9">
+            <div class="main-content">
+                <div class="row" style="margin-bottom: 30px;">
+                    <div class="col-sm-12">
+                        <h3>Danh sách chủ đề</h3>
+                    </div>
+                    <div class="col-sm-8">
+                        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="pills-all-tab" data-toggle="pill" href="#pills-all"
+                                   role="tab" aria-controls="pills-home" aria-selected="true">Tất cả</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="pills-mk-tab" data-toggle="pill" href="#pills-mk"
+                                   role="tab" aria-controls="pills-profile" aria-selected="false">MK - ASIAN</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="pills-build-tab" data-toggle="pill" href="#pills-build"
+                                   role="tab" aria-controls="pills-contact" aria-selected="false">Xây dựng</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="pills-bdt-tab" data-toggle="pill" href="#pills-bdt"
+                                   role="tab" aria-controls="pills-contact" aria-selected="false">Bộ đầu tư</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="pills-dt-tab" data-toggle="pill" href="#pills-dt"
+                                   role="tab" aria-controls="pills-contact" aria-selected="false">Đấu thầu</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 text-right ">
+                        <input class="search-input" type="text" name="search"
+                               placeholder="Tìm kiếm từ điển">
+                        <button class="search-btn" role="button">Tìm kiếm</button>
+                    </div>
+                </div>
+                <div class="row" style="margin-bottom: 16px;">
+                    <div class="tab-content" id="pills-Content">
+                        <div class="tab-pane fade show active" id="pills-all" role="tabpanel"
+                             aria-labelledby="pills-all-tab">
+                            <div class="row">
+                                <div class="col-sm-4 item">
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <img src="./images/image-27.png">
+                                        </div>
+                                        <div class="col-sm-12">
+                                            <h4>
+                                                Giao lưu và thảo luận về đấu thầu qua mạng
+                                            </h4>
+                                        </div>
+                                        <div class="col-sm-12">
+                                            <h5>
+                                                Văn bản pháp quy | Bộ Kế hoạch và Đầu tư
+                                            </h5>
+                                        </div>
+                                        <div class="col-sm-12">
+                                            <p>
+                                                TGVN. Ngày 4/11, Quốc hội tiếp tục họp
+                                                phiên toàn thể tại Hội trường, trong đó các
+                                                đại biểu tiếp tục thảo luận về những vấn đề
+                                                liên quan đến kinh tế-xã hội, ngân sách nhà
+                                                nước, đầu tư công, tài chính quốc gia, cơ cấu
+                                                lại nền kinh tế, thảo luận về chương trình
+                                                mục tiêu quốc gia
+                                            </p>
+                                        </div>
+                                        <div class="col-sm-12 text-right">
+                                            <div class="grp-buttons">
+                                                <button class="circular-btn-content" role="button"
+                                                        style="padding-left: 8px; padding-right: 8px;"><i
+                                                        class="fa fa-file-pdf"></i>
+                                                </button>
+                                                <button class="circular-btn-content" role="button"><i
+                                                        class="fa fa-download"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 item">
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <img src="./images/image-27.png">
+                                        </div>
+                                        <div class="col-sm-12">
+                                            <h4>
+                                                Giao lưu và thảo luận về đấu thầu qua mạng
+                                            </h4>
+                                        </div>
+                                        <div class="col-sm-12">
+                                            <h5>
+                                                Văn bản pháp quy | Bộ Kế hoạch và Đầu tư
+                                            </h5>
+                                        </div>
+                                        <div class="col-sm-12">
+                                            <p>
+                                                TGVN. Ngày 4/11, Quốc hội tiếp tục họp
+                                                phiên toàn thể tại Hội trường, trong đó các
+                                                đại biểu tiếp tục thảo luận về những vấn đề
+                                                liên quan đến kinh tế-xã hội, ngân sách nhà
+                                                nước, đầu tư công, tài chính quốc gia, cơ cấu
+                                                lại nền kinh tế, thảo luận về chương trình
+                                                mục tiêu quốc gia
+                                            </p>
+                                        </div>
+                                        <div class="col-sm-12 text-right">
+                                            <div class="grp-buttons">
+                                                <button class="circular-btn-content" role="button"
+                                                        style="padding-left: 8px; padding-right: 8px;"><i
+                                                        class="fa fa-file-pdf"></i>
+                                                </button>
+                                                <button class="circular-btn-content" role="button"><i
+                                                        class="fa fa-download"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 item">
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <img src="./images/image-27.png">
+                                        </div>
+                                        <div class="col-sm-12">
+                                            <h4>
+                                                Giao lưu và thảo luận về đấu thầu qua mạng
+                                            </h4>
+                                        </div>
+                                        <div class="col-sm-12">
+                                            <h5>
+                                                Văn bản pháp quy | Bộ Kế hoạch và Đầu tư
+                                            </h5>
+                                        </div>
+                                        <div class="col-sm-12">
+                                            <p>
+                                                TGVN. Ngày 4/11, Quốc hội tiếp tục họp
+                                                phiên toàn thể tại Hội trường, trong đó các
+                                                đại biểu tiếp tục thảo luận về những vấn đề
+                                                liên quan đến kinh tế-xã hội, ngân sách nhà
+                                                nước, đầu tư công, tài chính quốc gia, cơ cấu
+                                                lại nền kinh tế, thảo luận về chương trình
+                                                mục tiêu quốc gia
+                                            </p>
+                                        </div>
+                                        <div class="col-sm-12 text-right">
+                                            <div class="grp-buttons">
+                                                <button class="circular-btn-content" role="button"
+                                                        style="padding-left: 8px; padding-right: 8px;"><i
+                                                        class="fa fa-file-pdf"></i>
+                                                </button>
+                                                <button class="circular-btn-content" role="button"><i
+                                                        class="fa fa-download"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-mk" role="tabpanel"
+                             aria-labelledby="pills-mk-tab">a
+                        </div>
+                        <div class="tab-pane fade" id="pills-build" role="tabpanel"
+                             aria-labelledby="pills-build-tab">b
+                        </div>
+                        <div class="tab-pane fade" id="pills-bdt" role="tabpanel"
+                             aria-labelledby="pills-bdt-tab">c
+                        </div>
+                        <div class="tab-pane fade" id="pills-dt" role="tabpanel"
+                             aria-labelledby="pills-dt-tab">d
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row search-page-number" style="padding-left: 5px; padding-right: 10px;">
+                    <div class="col-sm-6 text-left">
+                        <p>Trang
+                            <span style="color: #595959;">1 </span>
+                            <i class="fa fa-chevron-down" style="font-size: 10px;"></i> Trên 50
+                        </p>
+                    </div>
+                    <div class="col-sm-6" style="padding: 0px;">
+                        <div style="float: right;">
+                            <button class="page-number-btn" role="button">Xem tất cả</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main-content">
+                <div class="row" style="margin-bottom: 30px;">
+                    <div class="col-sm-12">
+                        <h3>Dữ liệu nổi bật</h3>
+                    </div>
+                    <div class="col-sm-8">
+                        <ul class="nav nav-pills mb-3" id="pills-tab-2" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="pills-all-tab-2" data-toggle="pill" href="#pills-all-2"
+                                   role="tab" aria-controls="pills-home" aria-selected="true">Tất cả</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="pills-mk-tab-2" data-toggle="pill" href="#pills-mk-2"
+                                   role="tab" aria-controls="pills-profile" aria-selected="false">MK - ASIAN</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="pills-build-tab-2" data-toggle="pill" href="#pills-build-2"
+                                   role="tab" aria-controls="pills-contact" aria-selected="false">Xây dựng</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="pills-bdt-tab-2" data-toggle="pill" href="#pills-bdt-2"
+                                   role="tab" aria-controls="pills-contact" aria-selected="false">Bộ đầu tư</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="pills-dt-tab-2" data-toggle="pill" href="#pills-dt-2"
+                                   role="tab" aria-controls="pills-contact" aria-selected="false">Đấu thầu</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-2 offset-2 text-right ">
+                        <select class="input timkiem">
+                            <option selected>Tìm kiếm nâng cao</option>
+                            <option>Tìm kiếm bình thường</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row" style="margin-bottom: 16px;">
+                    <div class="tab-content" id="pills-Content-2">
+                        <div class="tab-pane fade show active" id="pills-all-2" role="tabpanel"
+                             aria-labelledby="pills-all-tab">
+                            <div class="row">
+                                <div class="container-md table-responsive">
+                                    <table class="table table-bordered table-hover mt-3 tables-hddth">
+                                        <thead class="thead-light">
+                                        <tr class="header-tables">
+                                            <th style="width:  8.33%"><h4>STT</h4></th>
+                                            <th style="width: 41.6666666667%"><h4>Dữ liệu</h4></th>
+                                            <th style="width: 16.6666666667%"><h4>Số văn bản</h4></th>
+                                            <th style="width: 16.6666666667%"><h4>Cơ quan Ban hành</h4></th>
+                                            <th style="width: 16.6666666667%"><h4>Hiệu lực</h4></th>
+                                        </tr>
+                                        </thead>
+                                        <tbody formArrayName="lines">
+                                        <tr class="body-tables">
+                                            <td><p>01</p></td>
+                                            <td>
+                                                <p>Ngày 4/11, Quốc hội tiếp tục họp phiên toàn thể tại Hội trường,
+                                                    trong đó các đại biểu tiếp tục thảo luận về vấn đề kinh tế
+                                                    - xã hội, ngân sách nhà nước, đầu tư công</p></td>
+                                            <td><p>11/2019/TT-BKHĐT</p></td>
+                                            <td><p>Bộ Kế hoạch và Đầu tư</p></td>
+                                            <td><p>Hiệu lực từ 22/02/2020</p></td>
+                                        </tr>
+                                        <tr class="body-tables">
+                                            <td><p>01</p></td>
+                                            <td>
+                                                <p>Ngày 4/11, Quốc hội tiếp tục họp phiên toàn thể tại Hội trường,
+                                                    trong đó các đại biểu tiếp tục thảo luận về vấn đề kinh tế
+                                                    - xã hội, ngân sách nhà nước, đầu tư công</p></td>
+                                            <td><p>11/2019/TT-BKHĐT</p></td>
+                                            <td><p>Bộ Kế hoạch và Đầu tư</p></td>
+                                            <td><p>Hiệu lực từ 22/02/2020</p></td>
+                                        </tr>
+                                        <tr class="body-tables">
+                                            <td><p>01</p></td>
+                                            <td>
+                                                <p>Ngày 4/11, Quốc hội tiếp tục họp phiên toàn thể tại Hội trường,
+                                                    trong đó các đại biểu tiếp tục thảo luận về vấn đề kinh tế
+                                                    - xã hội, ngân sách nhà nước, đầu tư công</p></td>
+                                            <td><p>11/2019/TT-BKHĐT</p></td>
+                                            <td><p>Bộ Kế hoạch và Đầu tư</p></td>
+                                            <td><p>Hiệu lực từ 22/02/2020</p></td>
+                                        </tr>
+                                        <tr class="body-tables">
+                                            <td><p>01</p></td>
+                                            <td>
+                                                <p>Ngày 4/11, Quốc hội tiếp tục họp phiên toàn thể tại Hội trường,
+                                                    trong đó các đại biểu tiếp tục thảo luận về vấn đề kinh tế
+                                                    - xã hội, ngân sách nhà nước, đầu tư công</p></td>
+                                            <td><p>11/2019/TT-BKHĐT</p></td>
+                                            <td><p>Bộ Kế hoạch và Đầu tư</p></td>
+                                            <td><p>Hiệu lực từ 22/02/2020</p></td>
+                                        </tr>
+                                        <tr class="body-tables">
+                                            <td><p>01</p></td>
+                                            <td>
+                                                <p>Ngày 4/11, Quốc hội tiếp tục họp phiên toàn thể tại Hội trường,
+                                                    trong đó các đại biểu tiếp tục thảo luận về vấn đề kinh tế
+                                                    - xã hội, ngân sách nhà nước, đầu tư công</p></td>
+                                            <td><p>11/2019/TT-BKHĐT</p></td>
+                                            <td><p>Bộ Kế hoạch và Đầu tư</p></td>
+                                            <td><p>Hiệu lực từ 22/02/2020</p></td>
+                                        </tr>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-mk-2" role="tabpanel"
+                             aria-labelledby="pills-mk-tab">a
+                        </div>
+                        <div class="tab-pane fade" id="pills-build-2" role="tabpanel"
+                             aria-labelledby="pills-build-tab">b
+                        </div>
+                        <div class="tab-pane fade" id="pills-bdt-2" role="tabpanel"
+                             aria-labelledby="pills-bdt-tab">c
+                        </div>
+                        <div class="tab-pane fade" id="pills-dt-2" role="tabpanel"
+                             aria-labelledby="pills-dt-tab">d
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row" style="padding-left: 5px; padding-right: 10px;">
+                    <div class="col-sm-6 text-left">
+                        <p>Trang
+                            <span style="color: #595959;">1 </span>
+                            <i class="fa fa-chevron-down" style="font-size: 10px;"></i> Trên 50
+                        </p>
+                    </div>
+                    <div class="col-sm-6" style="padding: 0px;">
+                        <div style="float: right;">
+                            <button class="page-number-btn" role="button">Xem tất cả</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Main content-->
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+
+<!-- JavaScript libraries, plugins and custom scripts-->
+<script src="js/vendor.min.js"></script>
+<script src="js/theme.min.js"></script>
+</body>
+
+</body>
+</html>

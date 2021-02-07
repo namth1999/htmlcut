@@ -1,0 +1,557 @@
+* {
+    font-family: Roboto;
+    font-style: normal;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col,
+.col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm,
+.col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md,
+.col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg,
+.col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl,
+.col-xl-auto {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/*Header Bar*/
+.header-bar {
+    background: #ffffff;
+    margin-bottom: 27px;
+}
+
+.bar {
+    border: 1px solid #f5f5f5;
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.heading {
+    font-size: 14px;
+    line-height: 22px;
+    color: #595959;
+    margin: 0px;
+    margin-bottom: 3px;
+}
+
+.heading-content {
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    /* Primary */
+    color: #064d69;
+}
+
+.heading-arrow-down {
+    margin-top: 12px;
+}
+
+/*Header bar - Search bar*/
+.search-bar {
+    -ms-flex: 0 0 98%;
+    flex: 0 0 98%;
+    max-width: 98%;
+    margin-left: 2%;
+}
+
+.search-bar-form {
+    padding-left: 5px;
+}
+
+form.search-bar-form input[type="text"] {
+    padding: 9px 16px;
+    border: 1px solid grey;
+    float: left;
+    background: #f5f5f5;
+    border-radius: 8px;
+
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #262626;
+}
+
+.search-button {
+    float: left;
+    padding: 9px 16px;
+    color: white;
+    border: 1px solid grey;
+    cursor: pointer;
+    margin-left: -15px;
+    border-left: none; /* Prevent double borders */
+    justify-content: center;
+    align-items: center;
+    background: #064d69;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.03);
+    border-radius: 8px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.search-icon {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+/*Bread-crumbs*/
+.bread-crumbs {
+    padding-left: 100px;
+}
+
+.bread-crumb {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.bread-crumb a:link {
+    color: #8c8c8c;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.bread-crumb a:hover {
+    color: #064d69;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.current-bread-crumb {
+    font-weight: normal;
+    font-size: 14px;
+    color: #064d69;
+    line-height: 22px;
+}
+
+
+
+/*Thong tin, ket qua tim kiem*/
+.main-content-header {
+    margin-left: 20px;
+}
+
+.main-content-header h1 {
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #595959;
+}
+
+.main-content-header p {
+    color: #595959;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+/*Side bar*/
+.side-bar-container {
+    padding-right: 10px;
+}
+
+.side-nav {
+    background-color: white;
+    padding-top: 10px;
+    border-radius: 8px;
+}
+
+.side-nav-cat {
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.cat-header {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #262626;
+}
+
+.side-nav select {
+    background: #f5f5f5;
+    width: 100%;
+    border-radius: 8px;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #262626;
+    text-align: center !important;
+}
+
+.side-nav form {
+    width: 100%;
+
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #262626;
+}
+
+.side-nav-cat label {
+    margin-bottom: -3px;
+
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    color: #595959;
+}
+
+/*Custom checkbox*/
+.checkbox-container {
+    display: block;
+    position: relative;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    cursor: pointer;
+    font-size: 14px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.checkbox-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0px;
+    left: -10px;
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border: 1px solid #262626;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.checkbox-container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+.checkbox-container input:checked ~ .checkmark {
+    background-color: #064d69;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.checkbox-container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.checkbox-container .checkmark:after {
+    left: 6px;
+    top: 2px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+/*Range slider cat*/
+.input-gia-goi-thau {
+    width: 100%;
+    margin-bottom: 5px;
+    border: 1px solid #e8e8e8;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    padding-left: 10px;
+}
+
+.input-gia-goi-thau:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #0c5460;
+}
+
+
+
+.input-symbol {
+    position: relative;
+}
+
+.input-symbol input {
+    padding-right: 18px;
+}
+
+.input-symbol:after {
+    position: absolute;
+    top: -15%;
+    content: "VNĐ";
+    right: 5px;
+    color: #8c8c8c;
+}
+
+.gia-goi-thau {
+    margin-right: 20px;
+}
+
+.slider-text {
+    color: #595959;
+}
+
+.gia-thau-slider {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    height: 6px;
+    padding: 0;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    background: #40a9ff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.gia-thau-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    /*16x16px adjusted to be same as 14x14px on moz*/
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: #ffffff;
+    border: 1px solid #c5c5c5;
+}
+
+.gia-thau-slider::-moz-range-thumb {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    background: #ffffff;
+    border: 1px solid #c5c5c5;
+}
+
+.refresh {
+    color: #8c8c8c;
+    border: 1px solid grey;
+    cursor: pointer;
+    background: #ffffff;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.03);
+    border-radius: 8px;
+    font-weight: normal;
+    font-size: 14px;
+    padding: 5px 8px;
+    line-height: 22px;
+}
+
+.apply {
+    color: #ffffff;
+    border: 1px solid grey;
+    cursor: pointer;
+    display: inline-block;
+    background: #064d69;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.03);
+    border-radius: 8px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 5px 10px;
+}
+
+
+/*Ket qua tim kiem cac goi thau - main content*/
+.main-content {
+    background-color: white;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+}
+
+.calendar-container {
+    position: relative;
+    text-align: center;
+}
+
+.calendar-text-event {
+    position: absolute;
+    width: 100%;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 12px;
+    line-height: 16px;
+    color: #064d69;
+    display: inline;
+}
+
+.calendar-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.goi-thau-heading-tab-1 {
+    border-right: 1px solid #f5f5f5;
+    padding-top: 12px;
+}
+
+.goi-thau-heading-tab-1 h2 {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #064d69;
+    margin-bottom: 30px;
+}
+
+.goi-thau-heading-tab-2 h2 {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #064d69;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+.goi-thau-heading-tab-2 {
+    padding-top: 12px;
+}
+
+.goi-thau-info-tab-1 {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #8C8C8C;
+}
+
+.goi-thau-heading-tab-1 p {
+    margin-bottom: 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.goi-thau-info-border {
+    border-right: 1px solid #f5f5f5;
+}
+
+.linh-vuc-tag {
+    background: #F5F5F5;
+    border: 1px solid #E8E8E8;
+    box-sizing: border-box;
+    border-radius: 20px;
+
+    font-weight: normal;
+    font-size: 12px;
+    padding: 2px 8px;
+    line-height: 22px;
+    color: #8C8C8C;
+}
+
+.goi-thau-info-tab-2 {
+    padding-left: 20px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #8C8C8C;
+    margin-bottom: 0px;
+}
+
+.goi-thau-info-tab-2-content {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #595959;
+}
+
+.hinh-thuc-du-thau-tag {
+    background: #EBFAEF;
+    border: 1px solid #B3EBC5;
+    box-sizing: border-box;
+    border-radius: 20px;
+    color: #2EB553;
+    margin-top: -2px;
+}
+
+/*Pagination search result*/
+.search-page-number {
+    width: 100%;
+    margin-left: 20px;
+}
+
+.search-page-number p {
+
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #8C8C8C;
+}
+
+.pagination li button {
+    background: #FFFFFF;
+    color: #8c8c8c;
+    padding: 5px 12px;
+    border-radius: 4px;
+    margin-right: 5px;
+    margin-top: -16px;
+    border: 0px;
+}
+
+.pagination li .is-active {
+    background: #064d69;
+    color: #FFFFFF;
+}
+
+.offset-right-1 {
+    margin-right: 8.3333333333%;
+}
+
+@media (max-width: 500px) {
+    .goi-thau-heading-tab-1 h2 {
+        white-space: pre-wrap;
+    }
+
+    .goi-thau-heading-tab-2 h2 {
+        white-space: pre-wrap;
+    }
+
+}

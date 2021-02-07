@@ -4,23 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link href="favicon.ico" rel="Shortcut Icon"/>
 
     <title>Danh sách mời thầu</title>
 
-    <!-- google fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com"/>
-    <link
-            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-            rel="stylesheet"
-    />
-
     <!-- bootstrap css -->
-    <link rel="stylesheet" href="./style.css"/>
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <link rel="stylesheet" href="./css/style.css"/>
     <!-- Custom css-->
-    <link rel="stylesheet" href="./danh-sach-moi-thau.css"/>
+    <link rel="stylesheet" href="./css/danhsachmoithau/danh-sach-moi-thau.css"/>
+
+    <!--    font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 
@@ -44,7 +38,7 @@
 </section>
 <!--Header-->
 
-<section style="padding-bottom: 40px; padding-top: 80px">
+<section style="padding-bottom: 40px; padding-top: 80px;position: relative;">
     <div class="wrap-login">
         <form>
             <div class="wrap-input">
@@ -55,7 +49,7 @@
                     </div>
                     <div class="col-1" style="padding: 0">
                         <button type="submit" class="search-button">
-                            <img class="search-icon" src="./assets/icon/search-icon.svg"/>
+                            <img class="search-icon" src="icons/search-icon.svg"/>
                         </button>
                     </div>
                 </div>
@@ -443,7 +437,7 @@
         <div class="col-9 offset-3">
             <div class="row search-page-number">
                 <div class="col-6 text-left">
-                    <p>Trang <span style="color: #595959;">1</span> <img src="./assets/icon/down-arrow.svg"/> Trên 50
+                    <p>Trang <span style="color: #595959;">1</span> <img src="icons/down-arrow.svg"/> Trên 50
                     </p>
                 </div>
                 <div class="col-6" style="padding: 0px;">
@@ -504,5 +498,7 @@
     });
 </script>
 <!-- JavaScript libraries, plugins and custom scripts-->
+<script src="js/vendor.min.js"></script>
+<script src="js/theme.min.js"></script>
 </body>
 </html>
