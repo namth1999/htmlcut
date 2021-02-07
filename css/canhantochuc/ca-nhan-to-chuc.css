@@ -248,3 +248,10 @@ body {
     box-shadow: 0 0 0 2px #0c5460; /* Full freedom. (works also with border-radius) */
 }
 /*Main content*/
+
+@media (max-width: 767px) {
+    .main-content {
+        margin-left: 0px;
+    }
+
+}

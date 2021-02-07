@@ -76,18 +76,13 @@ body {
 /*Bread crumbs*/
 
 /*Side bar*/
-.side-bar {
+.side-bar-menu {
+    padding: 16px;
     background: #FFFFFF;
     border: 1px solid #E8E8E8;
     box-sizing: border-box;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.03);
     border-radius: 8px;
-    padding: 0px;
-    height: 400px;
-}
-
-.side-bar-menu {
-    padding: 16px;
 }
 
 .side-bar-menu h2 {
@@ -336,3 +331,8 @@ body {
 }
 /*Side bar gop y*/
 
+@media (max-width: 768px) {
+    .main-content {
+        margin-left: 0px;
+    }
+}

@@ -89,6 +89,8 @@ body {
     font-size: 14px;
     line-height: 22px;
     color: #595959;
+    margin-bottom: 16px;
+    padding-left: 5px;
 }
 
 .side-bar-menu a.active {
@@ -321,3 +323,15 @@ body {
     margin-bottom: 24px;
 }
 /*Side bar gop y*/
+
+@media (max-width: 991px) {
+    .gop-y-form {
+        border: 1px solid #E8E8E8;
+        border-radius: 8px;
+    }
+    .address {
+        border: 1px solid #E8E8E8;
+        border-radius: 8px;
+    }
+
+}

@@ -174,6 +174,7 @@ body {
     line-height: 22px;
     padding: 5px 10px;
     box-sizing: border-box;
+    text-align: right !important;
 }
 
 .btn-nghiep-vu {
@@ -391,3 +392,29 @@ body {
     border: 1px solid #e8e8e8;
 }
 /*Slider*/
+
+@media (max-width: 767px) {
+    .main-content {
+        margin-left: 0px;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 1150px){
+
+    .blue-btn {
+        color: #ffffff;
+        border: 1px solid #064D69;
+        cursor: pointer;
+        display: inline-block;
+        background: #064d69;
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.03);
+        border-radius: 8px;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 18px;
+        padding: 4px 8px;
+        box-sizing: border-box;
+        text-align: right !important;
+    }
+
+}

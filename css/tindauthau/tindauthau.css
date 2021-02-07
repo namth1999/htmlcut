@@ -321,6 +321,85 @@ body .no-padding {
     color: #8C8C8C;
 }
 
+@media (max-width: 768px) {
+    .slider-button {
+        width: 16px;
+        height: 16px;
+        padding: 4px 0px;
+        font-size: 8px;
+        line-height: 16px;
+    }
+
+    .slide1-item h4 {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .slide1-item p {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .slide2-item h4 {
+        font-size: 14px;
+        line-height: 18px;
+        padding: 8px;
+    }
+
+    .slide2-item p {
+        font-size: 12px;
+        line-height: 16px;
+        padding: 6px;
+    }
+    .slide3-item h4 {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .slide3-item p:first-of-type {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .slide3-item p {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .tin-moi h4{
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .tin-moi p:first-of-type{
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .tin-moi p{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .xem-tat-ca {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .thong-bao-tag {
+        font-size: 10px;
+        padding: 2px 6px;
+        line-height: 16px;
+    }
+    .bread-crumb {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .current-bread-crumb {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+}
+
 @media (min-width: 1400px) and (max-width: 1600px) {
     .container-slide {
         max-width: 1200px;

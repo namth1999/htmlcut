@@ -49,14 +49,13 @@ body {
 /*Bread crumbs*/
 
 /*Side bar*/
-.side-bar {
+.side-bar-wrap {
     background: #FFFFFF;
     border: 1px solid #E8E8E8;
     box-sizing: border-box;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.03);
     border-radius: 8px;
-    padding-top: 16px;
-    height: 600px;
+    padding: 16px 4px;
 }
 
 .side-bar-user h3 {
@@ -101,7 +100,7 @@ body {
 }
 
 .side-bar-menu {
-    padding: 16px;
+    padding-top: 16px;
 }
 
 .side-bar-menu h2 {
@@ -116,6 +115,8 @@ body {
     font-size: 14px;
     line-height: 22px;
     color: #595959;
+    margin-bottom: 16px;
+    padding-left: 5px;
 }
 
 .side-bar-menu a.active {
@@ -161,6 +162,20 @@ body {
     line-height: 22px;
     padding: 5px 10px;
     box-sizing: border-box;
+}
+
+.upload-btn {
+    color: #1890FF;
+    cursor: pointer;
+    display: inline-block;
+    background: #FFFFFF;
+    border-radius: 8px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    box-sizing: border-box;
+    padding: 9px 16px;
+    border: 1px dashed #1890FF;
 }
 
 .btn-nghiep-vu {
@@ -290,3 +305,9 @@ body {
     box-shadow: 0 0 0 2px #0c5460; /* Full freedom. (works also with border-radius) */
 }
 /*Main content*/
+
+@media (max-width: 767px) {
+    .main-content {
+        margin-left: 0px;
+    }
+}

@@ -305,3 +305,12 @@ body {
     border-right-color: #064d69 !important;
 }
 
+@media (max-width: 991px) {
+    .main-content {
+        padding: 0px;
+    }
+
+    .main-content-item {
+        margin-left: 0px;
+    }
+}
