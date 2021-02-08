@@ -59,7 +59,6 @@ Primary use:    eGP Portal
 
 ::-webkit-scrollbar {
     width: 10px;
-    height: 505px;
     background: #FFFFFF;
     border: 1px solid #E8E8E8;
     box-sizing: border-box;
@@ -67,7 +66,6 @@ Primary use:    eGP Portal
 
 ::-webkit-scrollbar-thumb {
     width: 6.4px;
-    height: 30.18px;
     background: #C4C4C4;
     border-radius: 8px;
 }
