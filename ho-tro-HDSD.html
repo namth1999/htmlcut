@@ -40,12 +40,12 @@
     <div class="row" style="width: 85%; margin-left: auto; margin-right: auto;">
         <div class="col-md-3">
             <div class="side-bar-menu">
-                <div class="col-md-12" >
+                <div class="col-md-12">
                     <h2>Tài liệu hướng dẫn sử dụng</h2>
                 </div>
                 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                     <div class="panel panel-default">
-                        <div class="panel-heading" role="tab">
+                        <div class="panel-heading active" role="tab">
                             <h4 class="panel-title">
                                 <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
                                    aria-expanded="true" aria-controls="collapseOne">
@@ -54,116 +54,157 @@
                                 <hr/>
                             </h4>
                         </div>
-                        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel"
+                        <div id="collapseOne" class="panel-collapse collapse in show" role="tabpanel"
                              aria-labelledby="headingOne">
                             <div class="panel-body">
                                 <div class="item">
-                                    <input type="radio" id="first" name="radio-side-bar" value="first">
+                                    <input type="radio" id="first" name="radio-side-bar" checked value="first">
                                     <label for="first"><p>Đăng kí</p></label>
-                                    <ul>
-                                        <li><input type="radio" id="first-1" name="radio-inside-side-bar" value="first">
+                                    <ul class="nav nav-tabs" role="tablist">
+                                        <li><input type="radio" id="first-1" name="radio-inside-side-bar" checked
+                                                   data-target="#benmoithau">
                                             <label for="first-1"><p>Bên mời thầu</p></label></li>
-                                        <li><input type="radio" id="first-2" name="radio-inside-side-bar" value="first">
+                                        <li><input type="radio" id="first-2" name="radio-inside-side-bar"
+                                                   data-target="#chudautu">
                                             <label for="first-2"><p>Chủ đầu tư</p></label></li>
-                                        <li><input type="radio" id="first-3" name="radio-inside-side-bar" value="first">
+                                        <li><input type="radio" id="first-3" name="radio-inside-side-bar"
+                                                   data-target="#nhathau">
                                             <label for="first-3"><p>Nhà thầu</p></label></li>
-                                        <li><input type="radio" id="first-4" name="radio-inside-side-bar" value="first">
+                                        <li><input type="radio" id="first-4" name="radio-inside-side-bar"
+                                                   data-target="#cosodaotao">
                                             <label for="first-4"><p>Cơ sở đào tạo</p></label></li>
                                     </ul>
                                 </div>
                                 <div class="item">
                                     <input type="radio" id="second" name="radio-side-bar" value="second">
                                     <label for="second"><p>Đăng nhập</p></label>
-                                    <ul>
-                                        <li>a</li>
-                                        <li>b</li>
-                                        <li>c</li>
-                                        <li>d</li>
+                                    <ul class="nav nav-tabs" role="tablist">
+                                        <li><input type="radio" id="first-5" name="radio-inside-side-bar" checked
+                                                   data-target="#unknown">
+                                            <label for="first-1"><p>unknown</p></label></li>
+                                        <li><input type="radio" id="first-6" name="radio-inside-side-bar"
+                                                   data-target="#unknown">
+                                            <label for="first-2"><p>unknown</p></label></li>
+                                        <li><input type="radio" id="first-7" name="radio-inside-side-bar"
+                                                   data-target="#unknown">
+                                            <label for="first-3"><p>unknown</p></label></li>
+                                        <li><input type="radio" id="first-8" name="radio-inside-side-bar"
+                                                   data-target="#unknown">
+                                            <label for="first-4"><p>unknown</p></label></li>
                                     </ul>
                                 </div>
                                 <div class="item">
                                     <input type="radio" id="third" name="radio-side-bar" value="second">
                                     <label for="second"><p>Đăng ký CTS</p></label>
-                                    <ul>
-                                        <li>a</li>
-                                        <li>b</li>
-                                        <li>c</li>
-                                        <li>d</li>
+                                    <ul class="nav nav-tabs" role="tablist">
+                                        <li><input type="radio" id="first-9" name="radio-inside-side-bar" checked
+                                                   data-target="#unknown">
+                                            <label for="first-1"><p>unknown</p></label></li>
+                                        <li><input type="radio" id="first-10" name="radio-inside-side-bar"
+                                                   data-target="#unknown">
+                                            <label for="first-2"><p>unknown</p></label></li>
+                                        <li><input type="radio" id="first-11" name="radio-inside-side-bar"
+                                                   data-target="#unknown">
+                                            <label for="first-3"><p>unknown</p></label></li>
+                                        <li><input type="radio" id="first-12" name="radio-inside-side-bar"
+                                                   data-target="#unknown">
+                                            <label for="first-4"><p>unknown</p></label></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="panel panel-default">
-                        <div class="panel-heading" role="tab">
-                            <h4 class="panel-title">
-                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
-                                   href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    Đấu thầu điện tử <i class="fa fa-chevron-down"></i>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading" role="tab">
+                                                <h4 class="panel-title">
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                                                       href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                        Đấu thầu điện tử <i class="fa fa-chevron-down"></i>
 
-                                </a>
-                                <hr/>
-                            </h4>
-                        </div>
-                        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel"
-                             aria-labelledby="headingTwo">
-                            <div class="panel-body">
-                                Abczyx
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading" role="tab">
-                            <h4 class="panel-title">
-                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
-                                   href="#collapseThree" aria-expanded="false" aria-controls="collapseTwo">
-                                    Mua sắm trực tuyến (e - Shopping) <i class="fa fa-chevron-down"></i>
-                                </a>
-                                <hr/>
-                            </h4>
-                        </div>
-                        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel">
-                            <div class="panel-body">
-                                Abczyx
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading" role="tab">
-                            <h4 class="panel-title">
-                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
-                                   href="#collapseFour" aria-expanded="false" aria-controls="collapseTwo">
-                                    Hợp đồng điện tử <i class="fa fa-chevron-down"></i>
-                                </a>
-                                <hr/>
-                            </h4>
-                        </div>
-                        <div id="collapseFour" class="panel-collapse collapse" role="tabpanel">
-                            <div class="panel-body">
-                                Abczyx
-                            </div>
-                        </div>
-                    </div>
+                                                    </a>
+                                                    <hr/>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel"
+                                                 aria-labelledby="headingTwo">
+                                                <div class="panel-body">
+                                                    Abczyx
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading" role="tab">
+                                                <h4 class="panel-title">
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                                                       href="#collapseThree" aria-expanded="false" aria-controls="collapseTwo">
+                                                        Mua sắm trực tuyến (e - Shopping) <i class="fa fa-chevron-down"></i>
+                                                    </a>
+                                                    <hr/>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel">
+                                                <div class="panel-body">
+                                                    Abczyx
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading" role="tab">
+                                                <h4 class="panel-title">
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                                                       href="#collapseFour" aria-expanded="false" aria-controls="collapseTwo">
+                                                        Hợp đồng điện tử <i class="fa fa-chevron-down"></i>
+                                                    </a>
+                                                    <hr/>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseFour" class="panel-collapse collapse" role="tabpanel">
+                                                <div class="panel-body">
+                                                    Abczyx
+                                                </div>
+                                            </div>
+                                        </div>
 
                 </div>
 
             </div>
         </div>
         <div class="col-md-9">
-            <div class="pdf-tai-lieu">
-                <div class="col-md-12">
-                    <h2>Tài liệu hướng dẫn sử dụng bên mời thầu</h2>
+            <div class="tab-content">
+                <div id="benmoithau" class="tab-pane active">
+                    <div class="pdf-tai-lieu">
+                        <div class="col-md-12">
+                            <h2>Tài liệu hướng dẫn sử dụng bên mời thầu</h2>
+                        </div>
+                        <div class="col-md-12">
+                            <iframe src="pdf/VanBanGoc_43.2013.QH13.pdf" width="100%" height="1000px"
+                                    style="border-bottom: 1px solid #e8e8e8; padding-bottom: 16px"></iframe>
+                        </div>
+                        <div class="col-md-12 text-right">
+                            <button class="blue-btn " role="button">
+                                <i class="fa fa-download"></i> Tải về
+                            </button>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-12">
-                    <iframe src="pdf/VanBanGoc_43.2013.QH13.pdf" width="100%" height="1000px" style="border-bottom: 1px solid #e8e8e8; padding-bottom: 16px"></iframe>
+                <div id="chudautu" class="tab-pane">
+                    <div class="pdf-tai-lieu">
+                        b
+                    </div>
                 </div>
-                <div class="col-md-12 text-right">
-                    <button class="blue-btn " role="button">
-                        <i class="fa fa-download"></i> Tải về
-                    </button>
+                <div id="nhathau" class="tab-pane">
+                    <div class="pdf-tai-lieu">
+                        c
+                    </div>
+                </div>
+                <div id="cosodaotao" class="tab-pane">
+                    <div class="pdf-tai-lieu">
+                        d
+                    </div>
                 </div>
             </div>
+
         </div>
     </div>
 </section>
@@ -190,6 +231,14 @@
     $('.panel-collapse').on('hide.bs.collapse', function () {
         $(this).siblings('.panel-heading').removeClass('active');
     });
+</script>
+<script>
+    $(document).ready(function () {
+        $('input[name="radio-inside-side-bar"]').click(function () {
+            $(this).tab('show');
+            $(this).removeClass('active');
+        });
+    })
 </script>
 </body>
 </html>

@@ -278,8 +278,20 @@ body .no-padding {
     padding-top: 5px;
 }
 
+.tin-moi h1 {
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 46px;
+}
+
 .tin-moi span {
     color: #1890FF;
+}
+
+.tin-moi h3 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
 }
 
 .tin-moi h4{
@@ -287,6 +299,7 @@ body .no-padding {
     font-size: 16px;
     line-height: 24px;
     color: #262626;
+    margin-bottom: 8px;
 }
 
 .tin-moi p:first-of-type{
@@ -328,6 +341,10 @@ body .no-padding {
     padding: 2px 8px;
     line-height: 22px;
     color: #8C8C8C;
+}
+
+#slide1 {
+    padding-bottom: 18px;
 }
 
 @media (max-width: 768px) {
