@@ -124,7 +124,7 @@ body {
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.03);
     border-radius: 8px;
     margin-left: 30px;
-    padding: 24px;
+    padding: 16px;
     margin-bottom: 40px;
 }
 
@@ -223,6 +223,8 @@ body {
     line-height: 22px;
     color: #BFBFBF;
     margin-right: 10px;
+    width: 100%;
+    max-width: 150px;
 }
 
 .search-btn {
@@ -237,7 +239,7 @@ body {
     font-weight: normal;
     font-size: 14px;
     line-height: 22px;
-    padding: 5px 10px;
+    padding: 4px 8px;
 }
 
 .circular-btn-content {
@@ -274,14 +276,14 @@ body {
 
 #pills-tab .nav-item {
     background: #F5F5F5;
-    padding:2px 16px;
+    padding:0px;
     border: none;
-    margin: 0px;
+    margin-right: 0px;
 }
 
 #pills-tab-2 .nav-item {
     background: #F5F5F5;
-    padding:2px 16px;
+    padding:0px;
     border: none;
     margin: 0px;
 }
@@ -357,3 +359,9 @@ body {
     background: #FFFFFF;
 }
 /*Table*/
+
+@media (max-width: 767px) {
+    .main-content {
+        margin-left: 0px;
+    }
+}
