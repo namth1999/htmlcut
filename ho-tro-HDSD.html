@@ -62,7 +62,7 @@
                                     <label for="first"><p>Đăng kí</p></label>
                                     <ul class="nav nav-tabs" role="tablist">
                                         <li><input type="radio" id="first-1" name="radio-inside-side-bar"
-                                                   data-target="#benmoithau" checked value="first1">
+                                                   data-target="#benmoithau" value="first1">
                                             <label for="first-1"><p>Bên mời thầu</p></label></li>
                                         <li><input type="radio" id="first-2" name="radio-inside-side-bar"
                                                    data-target="#chudautu">
@@ -241,7 +241,7 @@
     $(document).ready(function () {
         $('input[name="radio-inside-side-bar"]').click(function () {
             $(this).tab('show');
-            $(this).removeClass('active');
+            $(this).addClass('active');
         });
     })
 </script>
