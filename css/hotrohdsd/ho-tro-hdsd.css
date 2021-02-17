@@ -235,6 +235,16 @@ input[type="radio"] {
 input[type="radio"]:checked {
     background-color: #064d69;
 }
+
+input[type="radio"].active {
+    background-color: #064d69;
+}
+
+input[type="radio"].active ~ label p{
+    color: #064d69;
+    margin-bottom: 0px;
+}
+
 .item input:checked ~ label p {
     color: #064d69;
     margin-bottom: 0px;

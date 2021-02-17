@@ -273,7 +273,6 @@ body {
 @media (min-width: 1400px) and (max-width: 1600px) {
     .container-slide {
         max-width: 1200px;
-
     }
 }
 
@@ -304,7 +303,7 @@ body {
 }
 
 .container-slide {
-    width: 100%;
+    width: 77.5%;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
@@ -344,7 +343,7 @@ body {
 .back-slide-2 {
     position: absolute;
     top: 30%;
-    left: -11%;
+    left: -6%;
     transform: translate(50%, 50%);
     z-index: 99;
     display: -ms-flexbox;
@@ -364,7 +363,7 @@ body {
 .forward-slide-2 {
     position: absolute;
     top: 30%;
-    right: 5%;
+    right: 10%;
     transform: translate(50%, 50%);
     z-index: 99;
     display: -ms-flexbox;

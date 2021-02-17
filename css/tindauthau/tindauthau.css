@@ -109,7 +109,7 @@ body .no-padding {
 .back-slide {
     position: absolute;
     top: -20%;
-    left: -11%;
+    left: -6%;
     transform: translate(50%, 50%);
     z-index: 99;
     display: -ms-flexbox;
@@ -129,7 +129,7 @@ body .no-padding {
 .forward-slide {
     position: absolute;
     top: -20%;
-    right: 5%;
+    right: 10%;
     transform: translate(50%, 50%);
     z-index: 99;
     display: -ms-flexbox;
@@ -148,7 +148,7 @@ body .no-padding {
 .back-slide-2 {
     position: absolute;
     top: 30%;
-    left: -11%;
+    left: -6%;
     transform: translate(50%, 50%);
     z-index: 99;
     display: -ms-flexbox;
@@ -168,7 +168,7 @@ body .no-padding {
 .forward-slide-2 {
     position: absolute;
     top: 30%;
-    right: 5%;
+    right: 10%;
     transform: translate(50%, 50%);
     z-index: 99;
     display: -ms-flexbox;
@@ -264,7 +264,7 @@ body .no-padding {
 }
 
 .container-slide {
-    width: 100%;
+    width: 77.5%;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
@@ -346,11 +346,10 @@ body .no-padding {
 
 @media (max-width: 768px) {
     .slider-button {
-        width: 16px;
-        height: 16px;
-        padding: 4px 0px;
-        font-size: 8px;
-        line-height: 16px;
+        width: 24px;
+        height: 24px;
+        padding: 2px 0px;
+        font-size: 10px;
     }
 
     .slide1-item h4 {
