@@ -213,7 +213,12 @@ body {
     padding: 16px 10px;
 }
 
+.search-input:focus {
+    outline:none;
+}
+
 .search-input {
+    width: 100%;
     background: #FFFFFF;
     border: 1px solid #E8E8E8;
     box-sizing: border-box;
@@ -222,12 +227,17 @@ body {
     font-size: 14px;
     line-height: 22px;
     color: #BFBFBF;
-    margin-right: 10px;
-    width: 100%;
     max-width: 150px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 .search-btn {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
     background: #F5F5F5;
     border: 1px solid #E8E8E8;
     box-sizing: border-box;
@@ -286,6 +296,13 @@ body {
     padding:0px;
     border: none;
     margin: 0px;
+}
+
+.tab-main {
+    width: 92%;
+    background: #F5F5F5;
+    padding: 8px 12px;
+    border-radius: 4px;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
@@ -356,6 +373,9 @@ body {
 }
 
 .timkiem {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
     background: #FFFFFF;
 }
 /*Table*/
