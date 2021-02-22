@@ -57,7 +57,10 @@ body {
     padding-top: 16px;
     margin-left: auto !important;
     margin-right: auto !important;
-    border-right: 1px solid #E8E8E8;;
+}
+
+.bar-text {
+    border-right: 1px solid #E8E8E8;
 }
 
 .heading {
